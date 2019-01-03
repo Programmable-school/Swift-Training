@@ -10,6 +10,7 @@ print("------------------\n")
 
 /* 変数と定数 */
 func Lesson_LetConst() {
+    // 変数
     var count: Int = 1
     count += 1
     
@@ -19,6 +20,7 @@ func Lesson_LetConst() {
     
     // 定数
     let name: String = "山田太郎"
+    // name = "Yamada Taro" // 定数のためビルドエラーになる
     print(name)     // 山田太郎
 }
 print("---- Lesson_LetConst ----")
@@ -68,8 +70,9 @@ print("------------------\n")
 /* null安全 */
 /* Optional Binding */
 /* 演算子 */
-/* Dictionary型 */
 /* 配列 */
+/* Dictionary型 */
+/* filter, map, reduce, sort */
 /* if分 */
 /* 比較演算子 */
 /* AND・OR */
