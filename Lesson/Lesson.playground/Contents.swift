@@ -1,15 +1,15 @@
 import UIKit
 
 /* Hello! World.を表示 */
-func Lesson_HelloWorld() {
+func lessonHelloWorld() {
    print("Hello! World.") // Hello! World.
 }
 print("---- Lesson_HelloWorld ----")
-Lesson_HelloWorld()
+lessonHelloWorld()
 print("------------------\n")
 
 /* 変数と定数 */
-func Lesson_LetConst() {
+func lessonLetConst() {
     // 変数
     var count: Int = 1
     count += 1
@@ -24,11 +24,11 @@ func Lesson_LetConst() {
     print(name)     // 山田太郎
 }
 print("---- Lesson_LetConst ----")
-Lesson_LetConst()
+lessonLetConst()
 print("------------------\n")
 
 /* プリミティブ型、Any型  */
-func Lesson_PriAny() {
+func lessonPriAny() {
     // プリミティブ型
     let numInt: Int = 10            // Int型（整数のみ）
                                     // 32bitの場合 2147483647 〜 -2147483648
@@ -63,11 +63,69 @@ func Lesson_PriAny() {
     print("class \(variable)")  // class 2019-01-03T00:23:46.481Z
 }
 print("---- Lesson_PriAny ----")
-Lesson_PriAny()
+lessonPriAny()
 print("------------------\n")
 
-/* Optional型 */
-/* null安全 */
+/*
+ Optional型
+ Optional型の場合はnilの場合があるかも？という意味で?をつける。
+ */
+func lessonOptional() {
+    var strA: String? = nil
+    // var strA: String = null  // Optional型以外でnullを入れるとコンパイルエラーになる
+    // print(strA.length)     // strAがnullの場合があるためコンパイルエラーになる
+    
+    print(strA)                 // nil
+    print(strA?.count)          // nil
+    
+    strA = "hogehoge"
+    print(strA)                 // Optional("hogehoge")
+    print(strA?.count)          // Optional(8)
+}
+
+print("---- Lesson_Optional ----")
+lessonOptional()
+print("------------------\n")
+
+/*
+ アンラップ
+ Optionalのデータを安全に取り出したい場合はアンラップを利用する
+ */
+func lessonUnwrap() {
+    // 書き方1
+    var strA: String? = nil
+    if let str = strA {
+        // nilのため表示されない
+        print(str)
+    } else {
+        print("This is nil.")               // This is nil.
+    }
+    
+    strA = "hogehoge"
+    if let str = strA {
+        print(str)                          // hogehoge
+    }
+    
+    // 書き方2
+    guard let tmpA = strA else {
+        // strAがnullならこのreturnで返す
+        return
+    }
+    print("strAは\(tmpA)")                   // strAはhogehoge
+    
+    let strB: String? = nil
+    guard let tmpB = strB else {
+        print("strBはnilなのでreturnする")    // strBはnilなのでreturnする
+        return
+    }
+    // strBはnilのため表示されない
+    print("strBは\(tmpB)")
+}
+/* アンラップ */
+print("---- Lesson_Unwrap ----")
+lessonUnwrap()
+print("------------------\n")
+
 /* Optional Binding */
 /* 演算子 */
 /* 配列 */
