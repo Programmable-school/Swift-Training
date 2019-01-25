@@ -88,10 +88,10 @@ lessonOptional()
 print("------------------\n")
 
 /*
- アンラップ
- Optionalのデータを安全に取り出したい場合はアンラップを利用する
+ Optional Binding, Unwrap
+ Optionalのデータを安全に取り出す。
  */
-func lessonUnwrap() {
+func lessonOptionalBinding() {
     // 書き方1
     var strA: String? = nil
     if let str = strA {
@@ -104,6 +104,10 @@ func lessonUnwrap() {
     strA = "hogehoge"
     if let str = strA {
         print(str)                          // hogehoge
+    }
+    
+    if let tmp = strA, tmp == "hogehoge" {
+        print("これは\(tmp)だよ")            // これはhogehogeだよ
     }
     
     // 書き方2
@@ -121,12 +125,11 @@ func lessonUnwrap() {
     // strBはnilのため表示されない
     print("strBは\(tmpB)")
 }
-/* アンラップ */
-print("---- Lesson_Unwrap ----")
-lessonUnwrap()
+/* Optional Binding,  Unwrap */
+print("---- Lesson_OptionalBinding ----")
+lessonOptionalBinding()
 print("------------------\n")
 
-/* Optional Binding */
 /* 演算子 */
 /* 配列 */
 /* Dictionary型 */
@@ -139,6 +142,7 @@ print("------------------\n")
 /* while文 */
 /* for文 */
 /* 関数 */
+/* 拡張関数 */
 /* Enum */
 /* 構造体 */
 /* クラス */
@@ -149,7 +153,6 @@ print("------------------\n")
 /* static */
 /* 継承 */
 /* プロトコル */
-/* 拡張関数 */
 /* ジェネリクス */
 /* クロージャ */
 /* コールバック*/
