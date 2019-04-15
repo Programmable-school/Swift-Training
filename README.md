@@ -66,4 +66,4 @@ print("Hello! World.")
 <br>
 コンテンツ準備中のため、<br>
 直接ソースコードを見て写経して学習してください。<br>
-[Lesson - Contents.swift](https://github.com/Programmable-school/Swift-Training/blob/master/Lesson/Lesson.playground/Contents.swift)<br>
+[Lesson](./Lesson)<br>
