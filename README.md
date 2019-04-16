@@ -3,7 +3,7 @@
 > 初学者向け Swift構文理解のためのソースコード
 
 ## 目次
-- [Hello! World.を表示](./Lesson/LessonHelloWorld/Lesson.playground/Contents.swift)
+- [Hello Worldを表示](./Lesson/LessonHelloWorld/Lesson.playground/Contents.swift)
 - [変数と定数](./Lesson/LessonLetConst/Lesson.playground/Contents.swift)
 - [関数](./Lesson/LessonFunction/Lesson.playground/Contents.swift)
 - [プリミティブ型、Any型](./Lesson/LessonPriAny/Lesson.playground/Contents.swift)
@@ -11,14 +11,14 @@
 - [OptionalBinding, Unwrap](./Lesson/LessonOptionalBindingUnwrap/Lesson.playground/Contents.swift)
 - [演算子](./Lesson/LessonCalc/Lesson.playground/Contents.swift)
 - [配列](./Lesson/LessonArray/Lesson.playground/Contents.swift)
-- [辞書型]()
-- [filter, map, reduce, sort]()
+- [辞書型](./Lesson/LessonDictionary/Lesson.playground/Contents.swift)
 - [if分（条件判断）]()
 - [比較演算子]()
 - [AND・OR, 三項演算子]()
 - [switch文（条件判断）]()
 - [while文（繰り返し）]()
 - [for文（繰り返し）]()
+- [filter, map, reduce, sort]()
 - [拡張関数]()
 - [クロージャ]()
 - [static]()
@@ -54,8 +54,8 @@ Xcodeのplaygounrdを利用してコーディングします。
 ```swift
 import UIKit
 
-/* Hello! World.を表示 */
-print("Hello! World.")
+/* Hello Worldを表示 */
+print("Hello World")
 ```
 エディタ下部の「▷」ボタンを押下すると実行します。<br>
 エディタツールバー -> Editer -> Run Playgroundでも実行できます。<br>
