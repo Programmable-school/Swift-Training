@@ -14,10 +14,10 @@
 - [辞書型](./Lesson/LessonDictionary/Lesson.playground/Contents.swift)
 - [if文（条件分岐）](./Lesson/LessonIf/Lesson.playground/Contents.swift)
 - [比較演算子](./Lesson/LessonCompare/Lesson.playground/Contents.swift)
-- AND・OR, 三項演算子
-- switch文（条件分岐）
-- while文（繰り返し）
-- for文（繰り返し）
+- [AND・OR, 三項演算子](./Lesson/LessonAndOr/Lesson.playground/Contents.swift)
+- [switch文（条件分岐）](./Lesson/LessonSwitch/Lesson.playground/Contents.swift)
+- [while文（繰り返し）](./Lesson/LessonWhile/Lesson.playground/Contents.swift)
+- [for文（繰り返し）](./Lesson/LessonFor/Lesson.playground/Contents.swift)
 - filter, map, reduce, sort
 - 拡張関数
 - クロージャ
