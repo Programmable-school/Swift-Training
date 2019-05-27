@@ -12,29 +12,29 @@
 - [演算子](./Lesson/LessonCalc/Lesson.playground/Contents.swift)
 - [配列](./Lesson/LessonArray/Lesson.playground/Contents.swift)
 - [辞書型](./Lesson/LessonDictionary/Lesson.playground/Contents.swift)
-- [if分（条件判断）]()
-- [比較演算子]()
-- [AND・OR, 三項演算子]()
-- [switch文（条件判断）]()
-- [while文（繰り返し）]()
-- [for文（繰り返し）]()
-- [filter, map, reduce, sort]()
-- [拡張関数]()
-- [クロージャ]()
-- [static]()
-- [Enum]()
-- [キャスト変換（型変換）]()
-- [数学計算（Math）]()
-- [日付関数（Date）]()
-- [クラス]()
-- [構造体]()
-- [継承]()
-- [プロトコル]()
-- [ジェネリクス]()
+- [if文（条件分岐）](./Lesson/LessonIf/Lesson.playground/Contents.swift)
+- [比較演算子](./Lesson/LessonCompare/Lesson.playground/Contents.swift)
+- AND・OR, 三項演算子
+- switch文（条件分岐）
+- while文（繰り返し）
+- for文（繰り返し）
+- filter, map, reduce, sort
+- 拡張関数
+- クロージャ
+- static
+- enum
+- キャスト変換（型変換）
+- 数学計算（Math）
+- 日付関数（Date）
+- クラス
+- 構造体
+- 継承
+- プロトコル
+- ジェネリクス
 - [正規表現](./Lesson/LessonRegx/Lesson.playground/Contents.swift)
-- [GCD]()
-- [ReactiveX]()
-- [課題]()
+- GCD
+- ReactiveX
+- 課題
 
 ## 開発環境
 - Xcode 10.1以上
@@ -57,13 +57,16 @@ import UIKit
 /* Hello Worldを表示 */
 print("Hello World")
 ```
+
 エディタ下部の「▷」ボタンを押下すると実行します。<br>
 エディタツールバー -> Editer -> Run Playgroundでも実行できます。<br>
-<br>
+
+
 実行するとエディタ右側と下部の画面に "Hello world!"が表示されます。<br>
-<br>
-以上です。<br>
-<br>
-コンテンツ準備中のため、<br>
-直接ソースコードを見て写経して学習してください。<br>
-[Lesson](./Lesson)<br>
+
+以上です。
+
+
+コンテンツ準備中のため、直接ソースコードを見て写経して学習してください。<br>
+
+[Lesson](./Lesson)
