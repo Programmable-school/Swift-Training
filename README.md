@@ -18,9 +18,8 @@
 - [switch文（条件分岐）](./Lesson/LessonSwitch/Lesson.playground/Contents.swift)
 - [while文（繰り返し）](./Lesson/LessonWhile/Lesson.playground/Contents.swift)
 - [for文（繰り返し）](./Lesson/LessonFor/Lesson.playground/Contents.swift)
-- filter, map, reduce, sort
-- 拡張関数
-- クロージャ
+- [filter, map, reduce, sort](./Lesson/LessonListOperation/Lesson.playground/Contents.swift)
+- [拡張関数](./Lesson/LessonExtension/Lesson.playground/Contents.swift)
 - static
 - enum
 - キャスト変換（型変換）
@@ -30,6 +29,7 @@
 - 構造体
 - 継承
 - プロトコル
+- [クロージャ](./Lesson/LessonClosure/Lesson.playground/Contents.swift)
 - ジェネリクス
 - [正規表現](./Lesson/LessonRegx/Lesson.playground/Contents.swift)
 - GCD
