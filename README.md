@@ -20,15 +20,15 @@
 - [for文（繰り返し）](./Lesson/LessonFor/Lesson.playground/Contents.swift)
 - [filter, map, reduce, sort](./Lesson/LessonListOperation/Lesson.playground/Contents.swift)
 - [拡張関数](./Lesson/LessonExtension/Lesson.playground/Contents.swift)
-- static
-- enum
-- キャスト変換（型変換）
-- 数学計算（Math）
+- [列挙型（enum）](./Lesson/LessonEnum/Lesson.playground/Contents.swift)
+- [キャスト変換（型変換）](./Lesson/LessonCast/Lesson.playground/Contents.swift)
+- [数学関数](./Lesson/LessonMath/Lesson.playground/Contents.swift)
 - 日付関数（Date）
 - クラス
 - 構造体
 - 継承
 - プロトコル
+- static
 - [クロージャ](./Lesson/LessonClosure/Lesson.playground/Contents.swift)
 - ジェネリクス
 - [正規表現](./Lesson/LessonRegx/Lesson.playground/Contents.swift)

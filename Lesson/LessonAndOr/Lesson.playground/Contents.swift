@@ -1,6 +1,6 @@
 import UIKit
 
-/* AND・OR, 三項演算子  */
+/* AND・OR, 三項演算子 */
 let isActive: Bool = true
 let age: Int = 20
 
