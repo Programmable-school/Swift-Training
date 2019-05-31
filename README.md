@@ -23,7 +23,7 @@
 - [列挙型（enum）](./Lesson/LessonEnum/Lesson.playground/Contents.swift)
 - [キャスト変換（型変換）](./Lesson/LessonCast/Lesson.playground/Contents.swift)
 - [数学関数](./Lesson/LessonMath/Lesson.playground/Contents.swift)
-- [日付関数（Date）](./Lesson/LessonClass/Lesson.playground/Contents.swift)
+- [日付関数（Date）](./Lesson/LessonDate/Lesson.playground/Contents.swift)
 - クラス
 - 構造体
 - 継承
