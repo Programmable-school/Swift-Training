@@ -24,9 +24,9 @@
 - [キャスト変換（型変換）](./Lesson/LessonCast/Lesson.playground/Contents.swift)
 - [数学関数](./Lesson/LessonMath/Lesson.playground/Contents.swift)
 - [日付関数（Date）](./Lesson/LessonDate/Lesson.playground/Contents.swift)
-- クラス
-- 構造体
+- [クラス](./Lesson/LessonClass/Lesson.playground/Contents.swift)
 - 継承
+- 構造体
 - プロトコル
 - [static](./Lesson/LessonStatic/Lesson.playground/Contents.swift)
 - [クロージャ](./Lesson/LessonClosure/Lesson.playground/Contents.swift)
