@@ -28,7 +28,7 @@
 - 構造体
 - 継承
 - プロトコル
-- [static]](./Lesson/LessonStatic/Lesson.playground/Contents.swift)
+- [static](./Lesson/LessonStatic/Lesson.playground/Contents.swift)
 - [クロージャ](./Lesson/LessonClosure/Lesson.playground/Contents.swift)
 - ジェネリクス
 - [正規表現](./Lesson/LessonRegx/Lesson.playground/Contents.swift)
