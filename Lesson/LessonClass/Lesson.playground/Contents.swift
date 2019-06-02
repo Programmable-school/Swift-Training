@@ -3,7 +3,7 @@ import UIKit
 /* クラス */
 
 /**
- * データのまとまり。データやメソッドをを定義できる。
+ * データのまとまり。変数や関数を定義できる。
  */
 class Human {
     /**
@@ -91,3 +91,4 @@ woman.showStatus()          // name Hanako height 150 weight 100 birthday 1992/1
 man.partner(woman)         // まぁいつ別れるか分からないけどね。これは独り言だから内緒だよ！
 man.showPartner()           // Taroのパートナーは Hanako
 woman.showPartner()         // Hanakoのパートナーは Taro
+

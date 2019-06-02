@@ -26,7 +26,7 @@
 - [日付関数（Date）](./Lesson/LessonDate/Lesson.playground/Contents.swift)
 - [クラス](./Lesson/LessonClass/Lesson.playground/Contents.swift)
 - [継承](./Lesson/LessonInheritance/Lesson.playground/Contents.swift)
-- 構造体
+- [構造体](./Lesson/LessonStruct/Lesson.playground/Contents.swift)
 - プロトコル
 - [static](./Lesson/LessonStatic/Lesson.playground/Contents.swift)
 - [クロージャ](./Lesson/LessonClosure/Lesson.playground/Contents.swift)
