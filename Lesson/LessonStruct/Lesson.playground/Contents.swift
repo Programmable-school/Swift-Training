@@ -33,7 +33,7 @@ print("user1: \(user1.name), user2: \(user2.name)")    // user1: Taro, user2: Ha
 
 /** クラスは参照渡しのため、オブジェクトは参照されデータを変更すると参照元も変わってしまう */
 class Student {
-    var name: String!
+    var name: String
     init(_ name: String) {
         self.name = name
     }
@@ -41,7 +41,7 @@ class Student {
 
 let student1: Student = Student("Taro")
 let student2: Student = student1
-print("student1: \(student1.name!)")    // student1: Taro
+print("student1: \(student1.name)")    // student1: Taro
 
 student2.name = "Hanako"
-print("student1: \(student1.name!), student2: \(student2.name!)")   // student1: Hanako, student2: Hanako
+print("student1: \(student1.name), student2: \(student2.name)")   // student1: Hanako, student2: Hanako

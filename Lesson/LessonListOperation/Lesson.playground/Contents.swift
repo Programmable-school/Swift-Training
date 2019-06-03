@@ -59,4 +59,4 @@ let sort4: [Int] = nums.sorted { $0 > $1 }
 print("sort1 :\(sort1)")    // sort1 :[0, 1, 2, 3, 4, 5]
 print("sort2 :\(sort2)")    // sort2 :[5, 4, 3, 2, 1, 0]
 print("sort3 :\(sort3)")    // sort3 :[0, 1, 2, 3, 4, 5]
-print("sort4 :\(sort4)")    // sort4 :[0, 1, 2, 3, 4, 5]
+print("sort4 :\(sort4)")    // sort4 :[5, 4, 3, 2, 1, 0]
