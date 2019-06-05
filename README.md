@@ -32,7 +32,7 @@
 - [クロージャ](./Lesson/LessonClosure/Lesson.playground/Contents.swift)
 - [ジェネリクス](./Lesson/LessonGenerics/Lesson.playground/Contents.swift)
 - [正規表現](./Lesson/LessonRegx/Lesson.playground/Contents.swift)
-- GCD
+- [GCD](./Lesson/LessonGcd/Lesson.playground/Contents.swift)
 - ReactiveX
 - 課題
 
