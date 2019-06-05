@@ -30,7 +30,7 @@
 - [プロトコル](./Lesson/LessonProtocol/Lesson.playground/Contents.swift)
 - [static](./Lesson/LessonStatic/Lesson.playground/Contents.swift)
 - [クロージャ](./Lesson/LessonClosure/Lesson.playground/Contents.swift)
-- ジェネリクス
+- [ジェネリクス](./Lesson/LessonGenerics/Lesson.playground/Contents.swift)
 - [正規表現](./Lesson/LessonRegx/Lesson.playground/Contents.swift)
 - GCD
 - ReactiveX
